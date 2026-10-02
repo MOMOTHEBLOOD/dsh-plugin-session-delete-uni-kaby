@@ -144,7 +144,7 @@ UI 可以被绕过。归档门槛在 Host 的删除 Core 里再查一次（`work
 3. **归档记账清理** —— 删除时同步移除 `archivedSessionIds` 条目，避免孤儿引用
 4. **peerDependencies 范围修正** —— 兼容 0.2.x 运行时
 
-原始版权归原作者所有，详见 [LICENSE](./LICENSE)。
+原始版权归原作者所有，详见 [LICENSE](./LICENSE)。本版本的修改与维护：[MCVSalter (@MOMOTHEBLOOD)](https://github.com/MOMOTHEBLOOD)。
 
 ### 与同类插件对比
 

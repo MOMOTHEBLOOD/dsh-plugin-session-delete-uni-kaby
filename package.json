@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-session-delete-uni",
   "version": "0.4.0",
-  "description": "Universal session delete for DeepSeek Harness: accepts any session id form (uuid / session-uuid / imported ids like oc-* or qoder-*) and requires the session to be ARCHIVED first. Header trash button + session-row menu item with risk-consent dialog; host endpoint + tool remove the log, projection cache, workspace accounting and the archive-bookkeeping entry.",
+  "description": "Universal session delete for DeepSeek Harness with a mandatory archive gate: a session must be archived before it can be permanently removed. Accepts any id form (uuid / session-<uuid> / imported oc-* or qoder-*); clears the log, projection cache, workspace accounting and archive bookkeeping.",
   "type": "module",
   "license": "MIT",
   "keywords": [
