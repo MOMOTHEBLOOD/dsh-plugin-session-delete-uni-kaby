@@ -1,17 +1,32 @@
 {
   "name": "dsh-plugin-session-delete-uni",
   "version": "0.4.0",
-  "description": "Universal session delete for DeepSeek Harness: accepts any session id form (uuid / session-uuid / imported ids like oc-* or qoder-*) and requires the session to be ARCHIVED first. Header trash button + session-row menu item with risk-consent dialog; host endpoint + tool remove the log, projection cache and workspace accounting.",
+  "description": "Universal session delete for DeepSeek Harness: accepts any session id form (uuid / session-uuid / imported ids like oc-* or qoder-*) and requires the session to be ARCHIVED first. Header trash button + session-row menu item with risk-consent dialog; host endpoint + tool remove the log, projection cache, workspace accounting and the archive-bookkeeping entry.",
   "type": "module",
   "license": "MIT",
-  "keywords": ["dsh-plugin"],
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "session",
+    "delete",
+    "archive"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lsz-asd/dsh-plugin-session-delete.git"
+    "url": "git+https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni.git"
   },
+  "bugs": {
+    "url": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni/issues"
+  },
+  "homepage": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni#readme",
   "files": [
     "src/",
-    "cordis.patch.yml"
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20"
