@@ -1,0 +1,39 @@
+{
+  "name": "dsh-plugin-session-delete-uni",
+  "version": "0.4.0",
+  "description": "Universal session delete for DeepSeek Harness: accepts any session id form (uuid / session-uuid / imported ids like oc-* or qoder-*) and requires the session to be ARCHIVED first. Header trash button + session-row menu item with risk-consent dialog; host endpoint + tool remove the log, projection cache and workspace accounting.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["dsh-plugin"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsz-asd/dsh-plugin-session-delete.git"
+  },
+  "files": [
+    "src/",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6 <0.3.0"
+  }
+}

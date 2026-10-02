@@ -1,0 +1,5 @@
+# session-delete-uni bundle layer: inserts the universal session-delete plugin row.
+# Loaded via `dsh plugin --profile <name> add file:<path>`.
+- insert:
+    - id: session-delete-uni
+      name: dsh-plugin-session-delete-uni
