@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni.git"
+    "url": "git+https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni-kaby.git"
   },
   "bugs": {
-    "url": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni/issues"
+    "url": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni-kaby/issues"
   },
-  "homepage": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni#readme",
+  "homepage": "https://github.com/MOMOTHEBLOOD/dsh-plugin-session-delete-uni-kaby#readme",
   "files": [
     "src/",
     "cordis.patch.yml",
